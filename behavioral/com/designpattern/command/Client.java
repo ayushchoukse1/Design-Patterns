@@ -14,7 +14,6 @@ public class Client {
 			pool.addCommand(smsCommand);
 			pool.addCommand(loggingCommand);
 			pool.addCommand(fileIOCommand);
-
 		}
 		pool.shutdown();
 	}
