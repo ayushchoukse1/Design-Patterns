@@ -8,7 +8,7 @@ public class MediatorClient {
 		Motor motor = new Motor();
 		Valve valve = new Valve();
 		SoilRemoval soilRemoval = new SoilRemoval();
-
+		
 		Mediator mediator = new CottonWasherMediator(button, heater, machine, motor, valve, soilRemoval);
 		button.setMediator(mediator);
 		heater.setMediator(mediator);
