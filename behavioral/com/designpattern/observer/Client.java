@@ -12,5 +12,6 @@ public class Client {
 		commentary.setDesc("This is a new description.");
 		commentary.setDesc("changing description");
 		observe_1.unsubsrcibe();
+	
 	}
 }
